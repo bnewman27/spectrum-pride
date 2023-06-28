@@ -1,10 +1,18 @@
+// Path: client/src/index.js
+// build an index.js file that will be the main entry point for the application
+// import the react and react-dom libraries
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+import ReactDOM from 'react-dom';
+// import the App component
 import App from './App';
+// import the reportWebVitals file
 import reportWebVitals from './reportWebVitals';
+// import the css file for the application
+import './index.css';
 
+// create the root variable that will be used to render the application
 const root = ReactDOM.createRoot(document.getElementById('root'));
+// render the App component to the root variable
 root.render(
   <React.StrictMode>
     <App />

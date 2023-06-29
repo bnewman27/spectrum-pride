@@ -2,7 +2,7 @@
 // import the react library
 import React from "react";
 // import the css file for the page
-import "./about.css";
+// import "./about.css";
 
 // create the About function that will be exported to the App.js file
 function About() {

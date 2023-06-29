@@ -1,12 +1,9 @@
-// create a footer component
-
-// create a footer component
 // import react
 import React from 'react';
 // import reactstrap
 import { Container, Row, Col } from 'reactstrap';
 // import styles
-// import '../../assets/styles/footer.scss';
+import '../styles/footer.module.scss';
 
 // create and export footer component
 export default function Footer() {

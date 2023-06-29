@@ -2,7 +2,7 @@
 // import the react library
 import React from "react";
 // import the css file for the page
-import "./services.css";
+import "./styles/services.modules.scss";
 
 // create the Services function that will be exported to the App.js file
 function Services() {

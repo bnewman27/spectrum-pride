@@ -11,7 +11,7 @@ import Footer from './footer';
 // import images
 // import homeImage from '../../assets/images/home.jpg';
 // import styles
-// import '../../assets/styles/home.scss';
+import "../styles/home.module.scss";
 
 // create and export home component
 export default function Home() {    
